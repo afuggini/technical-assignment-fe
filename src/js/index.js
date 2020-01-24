@@ -1,8 +1,8 @@
 import "core-js/stable";
 import "regenerator-runtime/runtime";
 
-import logger from './logger';
+import GamePlay from './GamePlay'
 
 import '../css/index.scss';
 
-logger('it works well!');
+new GamePlay('classic')

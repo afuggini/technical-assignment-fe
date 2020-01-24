@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Rock - Paper - Scissors</title>
-		<meta charset="UTF-8" />
-		<meta name="description" content="" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-	</head>
-	<body>
-		<h1>You are ready to go! :)</h1>
-		<h2>Good luck!</h2>
-	</body>
+  <head>
+    <title>Rock - Paper - Scissors</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+
+    <div id="app" class="user-vs-cpu">
+
+      <h1>Rock - Paper - Scissors</h1>
+
+      <div id="score">0 : 0</div>
+
+      <div id="match">
+        <div id="p1"></div>
+        <div id="vs">vs</div>
+        <div id="p2"></div>
+      </div>
+
+      <h2 id="output">Make your choice...</h2>
+
+      <ul id="choices"></ul>
+
+      <div id="simulate-wrap">
+        <button id="simulate">Simulate Game</button>
+      </div>
+
+      <div>
+        <button id="cpucpu">Switch to CPU vs CPU</button>
+        <button id="usercpu">Switch to User vs CPU</button>
+        <button id="reset">Reset Game</button>
+      </div>
+
+    </div>
+
+  </body>
 </html>
